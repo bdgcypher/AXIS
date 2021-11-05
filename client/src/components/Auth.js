@@ -28,7 +28,7 @@ const Auth = () => {
         e.preventDefault();
         const { fullName, username, password, phoneNumber, avatarURL } = form;
 
-        const URL = 'https://axis-chat.vercel.app/auth';
+        const URL = 'https://axis-dyoxpbbvl-bdgcypher.vercel.app/auth';
 
         const { data: { token, userId, hashedPassword } } = await axios.post(`${URL}/${isSignup ? 'signup' : 'login'}`, {
             username, password, fullName: form.fullName, phoneNumber, avatarURL,
