@@ -52,9 +52,9 @@ const login = async (req, res) => {
 
     } catch (error) {
         console.log(error);
-        alert(e.stack);
+        alert(error.stack);
 
-        res.status(500).json({message: "stupid code, y u no work?"});
+        res.status(500).json({message: error.toString()});
     }
 };
 
