@@ -29,7 +29,7 @@ const Auth = () => {
         const { fullName, username, password, phoneNumber, avatarURL } = form;
 
         // const URL = 'https://axis-chat.vercel.app/auth';
-        const URL = 'http://localhost:5000/';
+        const URL = 'http://localhost:5000';
 
         const { data: { token, userId, hashedPassword } } = await axios.post(`${URL}/${isSignup ? 'signup' : 'login'}`, {
             username, password, fullName: form.fullName, phoneNumber, avatarURL,
