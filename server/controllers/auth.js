@@ -52,7 +52,6 @@ const login = async (req, res) => {
 
     } catch (error) {
         console.log(error);
-        alert(error.stack);
 
         res.status(500).json({message: error.toString()});
     }
