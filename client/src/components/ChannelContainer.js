@@ -1,13 +1,11 @@
 import React from 'react'
-import { Channel, useChatContext, MessageTeam } from 'stream-chat-react'
+import { Channel, MessageTeam } from 'stream-chat-react'
 
 import ChannelInner from './ChannelInner'
 import CreateChannel from './CreateChannel'
 import EditChannel from './EditChannel'
-import TeamMessage from './TeamMessage'
 
 const ChannelContainer = ({ isCreating, setIsCreating, isEditing, setIsEditing, createType, }) => {
-    const { channel } = useChatContext();
 
     if(isCreating) {
         return (
