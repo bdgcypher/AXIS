@@ -29,7 +29,7 @@ const Auth = () => {
         const { fullName, username, password, phoneNumber, avatarURL } = form;
 
         // const URL = 'http://localhost:5000/auth';
-        const URL = 'https://axis-lake.vercel.app/auth';
+        const URL = 'https://axis-bdgcypher.vercel.app/auth';
 
         const { data: { token, userId, hashedPassword } } = await axios.post(`${URL}/${isSignup ? 'signup' : 'login'}`, {
             username, password, fullName: form.fullName, phoneNumber, avatarURL,
