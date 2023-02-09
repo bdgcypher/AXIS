@@ -52,6 +52,7 @@ const login = async (req, res) => {
 
     } catch (error) {
         console.log(error);
+        console.log("stupid code, y u no work?");
 
         res.status(500).json({message: "stupid code, y u no work?"});
     }
