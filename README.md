@@ -1,9 +1,9 @@
 # Axis
-Axis is a chat application similar to Discord that allows users to communicate with each other in real-time. This project uses the GetStream API to handle chat functionality and provide a seamless chat experience for users. You can check it out now by going to https://axis-chat.netlify.app/ and logging in with username and password "guest".
+Axis is a personal group chat application similar to Discord or Slack that allows users to communicate with each other in real-time, in groups or through direct messaging. This project uses the GetStream API to handle chat functionality and provide a seamless chat experience for users. You can check it out now by going to https://axis-chat.netlify.app/ and logging in with username and password "guest".
 
 ## Usage
 
-This application is created as a fun way for my friends and I to communicate and as a way for me to practice with api calls, React useContext, localStorage, and complex component structures.
+This application was created as a fun way for my friends and I to communicate and as a way for me to practice with api calls, React useContext, localStorage, and complex component structures.
 
 ## Features
 
